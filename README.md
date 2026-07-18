@@ -390,8 +390,8 @@ streamlit run app/app.py
 
 **Vansh Thapa**
 
-- GitHub: https://github.com/yourusername
-- LinkedIn: https://linkedin.com/in/yourprofile
+- GitHub: https://github.com/vanshthapa04
+- LinkedIn: [https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/vansh-thapa-8b0169255/)
 
 ---
 
