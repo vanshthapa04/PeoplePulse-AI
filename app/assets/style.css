@@ -1,0 +1,100 @@
+/* ===========================
+   GLOBAL
+=========================== */
+
+.block-container{
+    padding-top:2rem;
+    padding-bottom:2rem;
+    max-width:1400px;
+}
+
+/* ===========================
+   SIDEBAR
+=========================== */
+
+section[data-testid="stSidebar"]{
+    background:#111827;
+}
+
+section[data-testid="stSidebar"] *{
+    color:white !important;
+}
+
+/* ===========================
+   KPI CARDS
+=========================== */
+
+div[data-testid="metric-container"]{
+    background:linear-gradient(145deg,#1f2937,#111827);
+    border:1px solid #374151;
+    border-radius:18px;
+    padding:22px;
+    box-shadow:0 8px 25px rgba(0,0,0,.35);
+    transition:.25s ease;
+}
+
+div[data-testid="metric-container"]:hover{
+    transform:translateY(-4px);
+    border-color:#3b82f6;
+    box-shadow:0 12px 30px rgba(59,130,246,.25);
+}
+
+/* Metric Label */
+
+div[data-testid="metric-container"] label{
+    color:#9CA3AF !important;
+    font-size:15px !important;
+}
+
+/* Metric Value */
+
+div[data-testid="metric-container"] div[data-testid="stMetricValue"]{
+    color:white;
+    font-size:40px;
+    font-weight:700;
+}
+
+/* ===========================
+   HEADINGS
+=========================== */
+
+h1{
+    font-weight:800;
+}
+
+h2{
+    font-weight:700;
+}
+
+h3{
+    font-weight:600;
+}
+
+/* ===========================
+   CHART CONTAINERS
+=========================== */
+
+div[data-testid="stPlotlyChart"]{
+    border-radius:18px;
+    padding:12px;
+    background:#161B22;
+    border:1px solid #30363D;
+    box-shadow:0 4px 15px rgba(0,0,0,.25);
+}
+
+/* ===========================
+   DATAFRAMES
+=========================== */
+
+div[data-testid="stDataFrame"]{
+    border-radius:15px;
+    overflow:hidden;
+}
+
+/* ===========================
+   HORIZONTAL RULE
+=========================== */
+
+hr{
+    border:1px solid #30363D;
+}
